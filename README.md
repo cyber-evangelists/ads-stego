@@ -1,37 +1,7 @@
-
-# Steganography with Ads
-
-A steganography project that conceals various types of data within audio and video files, using advertisements (ads) as the cover media.
-
-![](https://1.bp.blogspot.com/-8mE4GoLv6Eo/X0aZuUgyIBI/AAAAAAAAnvk/_ovdPkl2Ef8MJdQTPHfGqZU-QP-12cBPgCLcBGAsYHQ/s1600/0.2.png)
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Supported Data Types](#supported-data-types)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+# Steganography Python Project
 
 ## Introduction
-
-Steganography with Ads is a project that leverages steganographic techniques to embed various types of data within audio and video files, particularly using advertisements as the carrier media. This technique enables the secure transmission of sensitive information, copyright protection through watermarking, and much more.
-
-## Features
-
-- **Data Hiding**: Conceal different types of data, including text, images, files, metadata, encryption keys, and authentication information, within audio and video files.
-- **Data Retrieval**: Extract hidden data from steganographically modified media.
-- **Data Security**: Encrypt and decrypt the hidden information to enhance its security and confidentiality.
-
-## Getting Started
-
-Follow these instructions to set up and run the Steganography with Ads project.
+This Python project is designed to enable users to perform steganography, the art of hiding data within other files. It utilizes encryption and data binding techniques to securely conceal and later retrieve data within various file types. 
 
 ### Prerequisites
 
@@ -50,47 +20,47 @@ Before using this project, ensure you have the following prerequisites:
 
     pip install -r requirements.txt
 
-# Usage
+## Project Components
 
-Learn how to use the Steganography with Ads project to hide and retrieve data within media files. The project may offer a command-line interface or a user-friendly graphical interface; provide detailed usage instructions and examples.
+### 1. Main Application (`main.py`)
+- The main script of the project.
+- Provides a graphical user interface (GUI) for user interaction.
+- Allows users to select a "main video file" and a "secret file" for steganography operations.
+- Provides options for encryption, data binding, decryption, and data extraction.
 
-## Supported Data Types
+### 2. Encryption Module (`crypto.py`)
+- Responsible for AES 256 encryption and decryption.
+- Uses a hardcoded password for encryption.
+- Encrypts and decrypts data before and after binding it to other files.
 
-You can hide a variety of data types, including but not limited to:
+### 3. Data Binding Module (`binder.py`)
+- Enables the hiding (binding) of encrypted data within other files.
+- Combines encrypted data with another file for concealment.
+- Provides functionality to extract the concealed data.
 
-- Text Data
-- Image Data
-- File Data
-- Metadata
-- Encryption Keys
-- Authentication Information
+## Project Workflow
+1. Users select a "main video file" and a "secret file" through the GUI.
+2. The "secret file" is encrypted using AES 256 encryption.
+3. The encrypted data is hidden (bound) within the "main video file" using the `binder.py` module.
+4. Users can choose an extension for the decrypted file (e.g., "jpeg," "mp4") and then decrypt the data, extracting it from the "main video file."
 
-## Project Structure
+## Usage
+1. Run the `main.py` script to open the GUI.
+2. Follow the on-screen instructions to select files, perform encryption, data binding, decryption, and data extraction.
 
-The project's file and directory structure is organized as follows:
-
-
-## Contributing
-
-We welcome contributions from the community. To contribute to this project:
-
-1. Fork the repository.
-2. Make your changes.
-3. Create a pull request.
-
-Please review our `CONTRIBUTING.md` for guidelines on contributing.
+## Notes
+- This project serves as a simplified demonstration. In a real-world application, enhanced security measures and user authentication would be recommended for encryption and decryption.
+- Steganography, while having legitimate use cases (e.g., watermarking or secure data transfer), should be used responsibly and ethically, considering privacy and security implications.
 
 ## License
+This project is provided under the XYZ License. For more details, refer to the [LICENSE](LICENSE) file.
 
-This project is licensed under the [License Name]. See the `LICENSE.md` file for the full license text.
+## Author
+- [Your Name](https://github.com/your-username)
+
+## Contact
+For questions or feedback, please contact [your.email@example.com](mailto:your.email@example.com).
 
 ## Acknowledgments
+- [List any libraries, resources, or individuals you want to acknowledge here.]
 
-We'd like to acknowledge the following sources and libraries that contributed to the development of this project:
-
-- Source or Library Name - Description (if applicable)
-- ...
-
-Feel free to add any additional acknowledgments or sources.
-
-Replace `[License Name]` with the actual license used for your project, and provide the full text of the license in a separate `LICENSE.md` file if required. You can also customize the content further to reflect the specific details of your steganography project.
