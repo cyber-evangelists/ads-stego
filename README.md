@@ -3,6 +3,8 @@
 
 A steganography project that conceals various types of data within audio and video files, using advertisements (ads) as the cover media.
 
+![](https://1.bp.blogspot.com/-8mE4GoLv6Eo/X0aZuUgyIBI/AAAAAAAAnvk/_ovdPkl2Ef8MJdQTPHfGqZU-QP-12cBPgCLcBGAsYHQ/s1600/0.2.png)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
