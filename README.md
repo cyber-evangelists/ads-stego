@@ -56,10 +56,10 @@ Before using this project, ensure you have the following prerequisites:
 This project is provided under the XYZ License. For more details, refer to the [LICENSE](LICENSE) file.
 
 ## Author
-- [Your Name](https://github.com/your-username)
+- [Team Cyber Evangelists](https://github.com/cyber-evangelists)
 
 ## Contact
-For questions or feedback, please contact [your.email@example.com](mailto:your.email@example.com).
+For questions or feedback, please contact [info@cyberevangelists.com](mailto:info@cyberevangelists.com).
 
 ## Acknowledgments
 - [List any libraries, resources, or individuals you want to acknowledge here.]
