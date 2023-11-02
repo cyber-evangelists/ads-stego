@@ -19,7 +19,7 @@ Before using this project, ensure you have the following prerequisites:
    cd your-project
 
     pip install -r requirements.txt
-
+    python3 run.py
 ## Project Components
 
 ### 1. Main Application (`main.py`)
