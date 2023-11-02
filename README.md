@@ -1,4 +1,4 @@
-# Steganography Python Project
+# Steganography with ADS
 
 ## Introduction
 This Python project is designed to enable users to perform steganography, the art of hiding data within other files. It utilizes encryption and data binding techniques to securely conceal and later retrieve data within various file types. 
