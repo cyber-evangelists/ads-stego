@@ -45,7 +45,7 @@ Before using this project, ensure you have the following prerequisites:
 4. Users can choose an extension for the decrypted file (e.g., "jpeg," "mp4") and then decrypt the data, extracting it from the "main video file."
 
 ## Usage
-1. Run the `main.py` script to open the GUI.
+1. Run the `run.py` script to open the GUI.
 2. Follow the on-screen instructions to select files, perform encryption, data binding, decryption, and data extraction.
 
 ## Notes
