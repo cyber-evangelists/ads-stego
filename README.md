@@ -61,6 +61,4 @@ This project is provided under the XYZ License. For more details, refer to the [
 ## Contact
 For questions or feedback, please contact [info@cyberevangelists.com](mailto:info@cyberevangelists.com).
 
-## Acknowledgments
-- [List any libraries, resources, or individuals you want to acknowledge here.]
 
